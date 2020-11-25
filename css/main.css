@@ -1,17 +1,38 @@
 body{
     font-family: 'Titillium Web', sans-serif;
 }
+
+/*
 .navbar-nav{
-    position: absolute;
+   position: absolute;
     left: 50%;
     transform: translatex(-50%);
     margin-top: 15px;
+    margin-bottom: 15px;
+}
+*/
+
+.navbar-nav{
+    position: center;
+    left: 50%;
 }
 
-header{
+.navbar-collapse {
+    /*border: 1px solid red;*/
+}
+
+.navbar-toggler{
+    border: 2px solid #007bff;
+    position: absolute;
+    left: 80%;
+    
+}
+
+header {
     border: 1px solid #e3f2fd;
     margin-top: 50px;
 }
+
 
 #testimonial{
     background:  #e3f2fd;
