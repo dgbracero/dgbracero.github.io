@@ -27,7 +27,6 @@ body{
     left: 80%;
     
 }
-
 header {
     border: 1px solid #e3f2fd;
     margin-top: 50px;
@@ -48,5 +47,16 @@ header {
 }
 
 footer{
-    background: url(../img/smartphones.png);
+    color: #e3f2fd;
+    background: url(../img-nc/work-731198_960_720.webp) no-repeat;
+    align-items: center;
 }
+
+#img2{
+    margin-top: 15px;
+}
+
+
+
+
+
