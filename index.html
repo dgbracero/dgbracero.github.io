@@ -16,6 +16,18 @@
     <link rel="stylesheet" href="css/main.css">
     <!--SCROLL REVEAL-->
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> --> 
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,500,600,700" rel="stylesheet"> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+<!-- Include the above in your HEAD tag -->
+
 </head>
 <body>
     <!--NAVBAR-->
@@ -35,15 +47,15 @@
                     <a class="nav-link" href="#header">Inicio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonial">Información</a>
+                        <a class="nav-link" href="#services">Servicios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#info-one">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
+                        <a class="nav-link" href="#contact">Contacts</a>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link" href="#">Tienda de diseños</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -56,7 +68,7 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Hoja de vida</a>
                         </div>
-                        </li>
+                    </li>-->
                 </ul>
         </div>
     </nav>
@@ -74,94 +86,74 @@
                     <div class="header-content-right">
                         <h2>¿Necesitas una página web?</h2>
                         <h4 style="text-align:justify"> 
-                            Te ofrezco soluciones profesionales en la creación de tu sitio web de cara a crear tu imagen digital o la de tu empresa / servicio y a conectar con tus usuarios, ya sea mediante grandes o pequeños presupuestos según tus necesidades o puedes visitar mi tienda de diseños para ser personalizados.
+                            Te ofrezco soluciones profesionales en la creación de tu sitio web de cara a crear tu imagen digital o la de tu empresa / servicio y a conectar con tus usuarios, ya sea mediante grandes o pequeños presupuestos según tus necesidades.
                         </h4>
-                        <!--<a href="#" class="btn btn-outline-secondary">Ver más</a> -->
-                        <button type="button" class="btn btn-outline-info">Ver tienda</button>
+                        <!--<a href="#" class="btn btn-outline-secondary">Ver más</a> 
+                        <button type="button" class="btn btn-outline-info">Ver tienda</button>-->
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!--Testimonial-->
-    <section id="testimonial" class="testimonial">
-        <h1>Proyectos</h1>
-        <div class="container">
-            <div class="shadow p-3 mb-5 bg-white rounded">
-            <div class="card-group">
-                <div class="card">
-                    <img src="img-nc/web-static.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Página web Básica</h5>
-                    <p class="card-text" style="text-align:justify">
-                        Este tipo de páginas se caracterizan porque muestran una información permanente en la que el usuario no puede interactuar con la página excepto para leer el contenido. No utilizan bases de datos, sino que la información reside en el servidor, por lo que para modificar el mismo hay que acceder al server y cambiar su contenido. Este tipo de páginas se usan para webs meramente informativas
-                    </p>
-                        <ul class="list-group" style="text-align: left;">
-                        <li class="list-group-item list-group-item-warning">Requiere compra de dominio</li>
-                        <li class="list-group-item list-group-item-info">Hosting gratuito</li>
-                        <li class="list-group-item list-group-item-info">Diseño responsivo</li>
-                        </ul>
-                    <p class="card-text"><small class="text-muted">Costo base 300$</small></p>
+    <!--Services-->
+    <section id="service" class="services">
+        <section class="services-area pt-100 pb-70" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 mx-auto text-center">
+                        <div class="section-title">
+                            <h4>Servicios</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="img-nc/paginaweb.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Página web dinámica</h5>
-                    <p class="card-text" style="text-align:justify">
-                        Al contrario que las páginas webs estáticas, en las webs dinámicas los contenidos pueden ser modificados por parte de los usuarios que las visitan y se les permite crear o modificar el aspecto de la misma a través de la misma navegación con formularios, texto, imágenes, vídeos, etc. Interactúan con una base de datos en la que se guardan cada uno de los registros de los usuarios.
-                    </p>
-                    <ul class="list-group" style="text-align: left;">
-                        <li class="list-group-item list-group-item-warning">Requiere compra de dominio</li>
-                        <li class="list-group-item list-group-item-warning">Requiere alojamiento</li>
-                        <li class="list-group-item list-group-item-info">Diseño responsivo</li>
-                        <li class="list-group-item list-group-item-info">Altamente escalable</li>
-                        </ul>
-                    <p class="card-text"><small class="text-muted">Costo base 500$</small></p>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-service">
+                            <i class="fa fa-paint-brush"></i>
+                            <h4>Diseño web</h4>
+                            <p>Planificación, diseño de interfaz, experiencia de usuario, inplementación y mantenimiento de sitios web. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-service">
+                            <i class="fa fa-code"></i>
+                            <h4>Desarrollo web</h4>
+                            <p>Creacion de páginas web exclusivas con diferentes tecnologías, fáciles de navegar y que se adaptan a todos los dispositivos.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-service">
+                            <i class="fa fa-line-chart"></i>
+                            <h4>CEO</h4>
+                            <p>Mejoramiento de posicion y visibilidad de tus páginas en los resultados de los principales navegadores.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-service">
+                            <i class="fa fa-file"></i>
+                            <h4>Copywriting</h4>
+                            <p>Escritura de textos que aparecen en tu página web de modo que conquisten a tu cliente potencial.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-service">
+                            <i class="fa fa-shopping-cart"></i>
+                            <h4>e-commerce</h4>
+                            <p>Compra y venta de productos o servicios a través de internet.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-service">
+                            <i class="fa fa-clock-o"></i>
+                            <h4>Soporte</h4>
+                            <p>Asistencia y soporte técnico orientado a garantizar la estabilidad y correcto funcionamiento de su servicio.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="img-nc/appweb.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Pagina web corporativa</h5>
-                    <p class="card-text" style="text-align:justify">
-                        Según el negocio o función:
-                        <ul style="text-align:justify">
-                            <li>Tiendas online / eCommerce</li>
-                            <li>Sitios web educativos</li>
-                            <li>Blogs</li>
-                            <li>Foros</li>
-                            <li>Páginas de recursos y descargas</li>
-                            <li>Sitios webs de noticias</li>
-                            <li>Sitios de consumo de vídeo</li>
-                        </ul>
-                    </p>
-                    <ul class="list-group" style="text-align: left;">
-                        <li class="list-group-item list-group-item-warning">Requiere compra de dominio</li>
-                        <li class="list-group-item list-group-item-warning">Requiere alojamiento</li>
-                        <li class="list-group-item list-group-item-info">Diseño responsivo</li>
-                        <li class="list-group-item list-group-item-info">Funcionalidades específicas</li>
-                        <li class="list-group-item list-group-item-info">CEO incluido</li> 
-                        </ul>
-                    <p class="card-text"><small class="text-muted">Costo base 1000$</small></p>
-                    </div>
-                </div>
-                </div>
-            <!--<div class="row my-5">
-                <div class="col-md-6">
-                    <h2>Sitio Web Estatico</h2>
-                    <p style="text-align:justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt explicabo, doloribus vel eveniet harum fugiat, quis iusto ex veritatis tenetur numquam, voluptas corporis fuga. Explicabo inventore unde ut voluptatem!</p>
-                    <button type="button" class="btn btn-warning">Solicitar</button>
-                </div>
-                <div class="col-md-6">
-                    <h2>Aplicación web</h2>
-                    <p style="text-align:justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt explicabo, doloribus vel eveniet harum fugiat, quis iusto ex veritatis tenetur numquam, voluptas corporis fuga. Explicabo inventore unde ut voluptatem!</p>
-                    <button type="button" class="btn btn-warning">Solicitar</button>
-                </div>
-            </div>-->
-        </div>
-        </div>
+            </div>
+        </section>
     </section>
 
     <!--INFO ONE-->
@@ -179,7 +171,6 @@
                             etc. Además soy Tecnico de administración de sistemas informaticos y estudiante de pedagogía de la Informatica en 
                             la Universidad Central del Ecuador. 
                         </p>
-                        <img src="img-nc/d-1935811_1920.png" style="width: 25%;">
                         <!--<a href="#" class="btn btn-outline-secondary header-btn">Leer más</a>-->
                         <!--<button type="button" class="btn btn-outline-info">Leer más</button>-->
                     </div>
@@ -193,7 +184,7 @@
         </div>
     </section>
 
-    <!--INFO TWO-->
+    <!--INFO TWO
     <section id="info-two" style="background:  #e3f2fd;"> 
         <div class="container">
             <div class="row my-5">
@@ -212,7 +203,8 @@
             </div>
         </div>
     </section>
-
+    -->
+<!--
     <footer id="contact">
         <div class="container">
             <div class="row">
@@ -236,6 +228,72 @@
                             </div>
             </div>
         </div>
+    -->
+    <footer class="section footer-classic context-dark bg-image" id="contact"></footer>
+        <div class="container-fluid" id="cont">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="middle">
+                        <a class="btn2" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+        
+                        <a class="btn2" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+        
+                        <a class="btn2" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+        
+                        <a class="btn2" href="#">
+                            <i class="fab fa-google"></i>
+                        </a>
+        
+                        <a class="btn2" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                <div class="container">
+                    <div class="row row-30">
+                    <div class="col-md-4 col-xl-5">
+                        <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="img-nc/d-1935811_1920.png" style="width: 25%;"></a>
+                        <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+                        <!-- Rights-->
+                        <p class="rights"><span>©  </span><span class="copyright-year">2020</span><span> </span><span>diegobraceroweb</span><span>. </span><span>All Rights Reserved.</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Contacts</h5>
+                        <dl class="contact-list">
+                        <dt>Address:</dt>
+                        <dd>798 South Park Avenue, Jaipur, Raj</dd>
+                        </dl>
+                        <dl class="contact-list">
+                        <dt>email:</dt>
+                        <dd><a href="mailto:#">diegobracero@hotmail.com</a></dd>
+                        </dl>
+                        <dl class="contact-list">
+                        <dt>phones:</dt>
+                        <dd><a href="tel:#">https://karosearch.com</a> <span>or</span> <a href="tel:#">https://karosearch.com</a>
+                        </dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-4 col-xl-3">
+                        <h5>Links</h5>
+                        <ul class="nav-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                    </div>
+            </div>
     </footer>
 
     <!--script-->
@@ -262,7 +320,7 @@
     delay: 1000
     });
 
-    sr.reveal('.testimonial',{
+    sr.reveal('.services',{
     duration: 2000,
     origin: 'left',
     distance: '300px'
